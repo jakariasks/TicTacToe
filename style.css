@@ -5,12 +5,25 @@
 body{
     background-color: #548687;
     text-align: center;
+
+   
+}
+h1{
+    background-color: #191913;
+    margin-top: 2vmin;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2.25vmin;
+    font-size: 6vmin;
+    box-shadow: 0 0 1rem rgba(226, 3, 3, 0.6);
+    color: rgb(195, 255, 0);
 }
 .container{
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 .game{
@@ -51,7 +64,7 @@ body{
 }
 
 #msg{
-    color: rgb(119, 255, 0);
+    color: rgb(251, 255, 0);
     font-size: 8vmin;
 }
 .msg-container{
@@ -62,6 +75,10 @@ body{
     flex-direction: column;
     gap: 4rem;
 
+}
+.name{
+    font-size: 3vmin;
+    color: #b4b1b1;
 }
 .hide{
     display: none;
